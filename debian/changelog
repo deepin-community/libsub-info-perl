@@ -1,0 +1,12 @@
+libsub-info-perl (0.002-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:21:47 +0100
+
+libsub-info-perl (0.002-1) unstable; urgency=medium
+
+  * Initial release (closes: #850744).
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 09 Jan 2017 22:22:13 +0100

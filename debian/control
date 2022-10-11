@@ -1,0 +1,24 @@
+Source: libsub-info-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libimporter-perl,
+                     libtest-simple-perl (>= 1.302072) | perl (>= 5.25.8),
+                     perl
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libsub-info-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libsub-info-perl.git
+Homepage: https://metacpan.org/release/Sub-Info
+
+Package: libsub-info-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libimporter-perl
+Description: helper module for inspecting subroutines
+ Sub::Info is a tool to inspect subroutines. It returns various kinds of
+ information about a subroutine, like its name, the file or package it was
+ defined in, and line numbers.
